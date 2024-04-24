@@ -13,10 +13,7 @@ spec:
         app: ms-spa
     spec:
       containers:
-        image: docker.io/jmartinezblanco/metaspa
+      - image: docker.io/jmartinezblanco/metaspa
         imagePullPolicy: Always
         name: ms-spa-container
-        ports:
-        - containerPort: 8080
-          protocol: TCP
         resources: {}
